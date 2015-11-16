@@ -97,20 +97,165 @@ div {
 /* HERO */
 
 #hero {
-	height: 455px;
+	/*height: 455px;*/
+	height: 595px; /*ovaj broj je moguce razlicit kod vas - to je visina slajfne*/
+	background-image: url('../images/bg.png');
+	background-repeat: repeat-x;
 }
 
 #clouds {
-	height: 455px;
+	height: 456px;
+	width: 1341px;
+	background-image: url('../images/boy.png');
+	background-repeat: no-repeat;
+	margin: 0 auto;
 }
 
+
+#hero .content h1 {
+	width: 400px;
+	margin: 0;
+	padding-top: 113px;
+	font-family: Times, serif;
+	font-size: 58px;
+	color: #274f75;
+	text-shadow: 1px 1px 0 white;
+
+}
+
+#hero .content h2 { 
+	width: 383px;
+	font-family: Arial, sans-serif;
+	color: #274f75;
+	font-size: 25px;
+	font-weight: normal;
+	text-shadow: 1px 1px 0 white;
+}
+
+#hero .content h1 span {
+	text-transform: uppercase;
+}
 /* MAIN */
 
 #main {
 	height: 691px;
 }
 
+#main .content {
+	background-color: white;
+	height: 691px;
+	margin-top: -139px;
+	width: 960px;
+	background-image: url('../images/main_bg.png');
+	background-repeat: no-repeat;
+
+}
+
+#main .mleft {
+	float: left;
+	width: 66%;
+	padding-right: 20px;
+	box-sizing: border-box;
+
+}
+
+#main .mright {
+	float: left;
+	width: 33%;
+	box-sizing: border-box;
+}
+
+#main .content .inner {
+	margin: 0 31px;
+}
+
+
+#main h1 {
+	margin-top: 39px;
+	color: #3f3f3f;
+	font-family: Arial, serif; 
+	font-weight: normal;
+	font-size: 27px;
+
+}
+
+#main h1 span {
+
+	color: #c80808;
+	font-weight: bold;
+}
+
+#main h2 {
+	margin-top: 20px;
+	color: #3f3f3f;
+	font-family: Arial, serif; 
+	font-weight: normal;
+	font-size: 20px;
+
+}
+
+#main h2 span {
+
+	color: #c80808;
+	font-weight: bold;
+}
+
+#main .left_p, #main .right_p {
+	width: 50%;
+	box-sizing: border-box;
+
+	float: left;
+}
+
+#main .left_p {
+	padding-right: 20px;
+}
+
+
+#main img {
+	border: 1px solid #c80808;
+	padding: 9px;
+	float: left;
+	margin-right: 22px;
+}
+
+#main p {
+	color: #3d3d3d;
+	font-family: Arial, sans-serif;
+	font-size: 14px;
+	line-height: 24px;
+	text-align: justify;
+}
+
+#main .news div {
+	box-sizing: border-box;
+	padding: 3px;
+	width: 38px;
+	height: 38px;
+	font-family: Arial, sans-serif;
+	color: white;
+	text-align: right;
+	background-color: #274f75;
+	float: left;
+	margin-right: 10px;
+}
+
+#main .news h2 {
+
+	font-size: 18px;
+	color: #274f75;
+	font-weight: normal;
+}
+
+#main .news p {
+	margin-top: 24px;
+	clear: both;
+
+	padding-bottom: 20px;
+	border-bottom: 1px solid #c6c6c6;
+}
 /* FOOTER */
+
 
 #footer {
 	height: 108px;
@@ -186,7 +331,6 @@ div {
 }
 
 .fright p {
-	clear: both;
 	text-align: right;
 	font-family: Arial, sans-serif;
 	font-size: 12px;
